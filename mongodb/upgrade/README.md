@@ -188,7 +188,27 @@ response:
 
 ```{ "ok" : 1 }```
 
+##### CR form
 
+| Task | Description |
+| --- | --- |
+| 1 | Install in testbed MongoDB 3.2 |
+| 2 | Restore data to MongoDB |
+| 3 | Upgrade to 3.4 [testbed] |
+| 4 | Upgrade to 3.6 [testbed] |
+| 5 | Upgrade to 4.0 [testbed] |
+| 6 | Upgrade to 4.2 [testbed] |
+| 7 | Check depended services in testbed |
+| 8 | Create backup plan VM |
+| 9 | Install MongoDB 3.2 on backup plan VM |
+| 10 | Dump data from MongoDB in product |
+| 11 | Restore data to backup plan MongoDB |
+| 12 | Upgrade to 3.4 [product] |
+| 13 | Upgrade to 3.6 [product] |
+| 14 | Upgrade to 4.0 [product] |
+| 15 | Upgrade to 4.2 [product] |
+| 16 | Check depended services in product |
+| 17 | If CR failed in product replace ip address with backup plan MongoDB |
 
 ##### Ref
 
