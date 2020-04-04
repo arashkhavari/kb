@@ -52,10 +52,20 @@ systemctl restart haproxy
 ```
 ##### Config format
 All files should this format:
-|global|
-|default|
-|frontend|
-|backend|
+```bash
+global
+    ...
+
+default
+    ...
+
+frontend
+    ...
+
+backend
+    ...
+
+```
 and each file should seperate validate
 ```bash
 haproxy -c -f haproxy-custom.cfg
