@@ -1,5 +1,5 @@
 # Clickhouse Replica Sharding (2 Shards, 2 Replicates)  
-![clickhouse](./Clickhouse.png)  
+![clickhouse](./img/Clickhouse.png)  
 ### Host  
 Three Apache ZooKeeper hosts : ZK1 ZK2 ZK3  
 Four Clickhouse hosts : CH1 CH2 CH3 CH4  
@@ -202,5 +202,5 @@ INSERT INTO events(EventDate, CounterID, UserID) VALUES (now(),1,2),(now(),2,2);
 ```sql
 select * from events;
 ```
-Turn of the nodes and insert data in events db then recheck the data.
+Turn off the nodes and insert data in events db then recheck the data.
 
