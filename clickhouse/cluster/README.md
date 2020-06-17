@@ -170,6 +170,8 @@ And set macros for each node is different cause with this macros info create PAT
     <replica>02</replica>
 </macros>
 ```  
+**Note: Hostname and DNS should same name  
+
 Now restart Clickhouse nodes.  
 ### Clickhouse cluster  
 Connect to Clickhouse client:  
